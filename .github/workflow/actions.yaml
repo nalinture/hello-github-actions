@@ -1,6 +1,8 @@
 name: Vinayakar Chathurthi
 
-on: workflow_dispatch
+on:
+  push:
+    branches: ["nalinture-patch-1"]
 
 jobs:
   - name: Pillaiyar
